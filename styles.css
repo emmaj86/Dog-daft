@@ -1,0 +1,134 @@
+body{
+    background-color: #DDD0C8;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*navbar*/
+
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    
+    display: flex;
+    margin: 0;
+    padding: 20px;
+     background-color: #c8d5dd;
+    justify-content: space-evenly;
+        
+}
+
+nav li{
+    display: inline;
+    
+
+
+}
+
+nav a{
+    font-size: 28px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    font-size: 32px;
+}
+
+/*header*/
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+}
+
+/* image */
+
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70vh;max-width: 100%;
+    padding-top: 20px;
+    
+}
+
+/*information*/
+
+.information {
+    border: #c8d5dd 5px solid;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    
+}
+h2{
+    padding-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+li{
+    padding: 10px;
+    font-size:24px;
+}
+/*about us page*/
+
+.about{
+    border: #c8d5dd 5px solid;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+#image-50{
+    width: 50%;
+    float: left;
+  
+}
+
+#info-50{
+    float: right;
+    padding-left: 20px;
+    font-size: 36px;
+}
+/* contact us page */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.information a:hover{
+    font-size: 28px;
+}
+
+/* footer*/
+footer{
+    padding-left: 30%;
+    background-color: #c8d5dd;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.fa {  
+    padding: 20px;  
+
+    font-size: 30px;  
+  
+   justify-content: space-between;
+   border-radius: 40%;
+  }  
+  
