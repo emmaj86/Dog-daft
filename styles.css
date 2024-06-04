@@ -158,8 +158,7 @@ footer{
     height: fit-content;
   }
   nav{
-    margin-right: 10px;
-    margin-left: 10px;
+justify-content: center;
   }
  
 }
