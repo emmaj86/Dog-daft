@@ -45,7 +45,7 @@ nav a:hover{
 
 header{
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 h1{font-family: 'Courier New', Courier, monospace;
@@ -121,18 +121,19 @@ footer{
     display: flex;
     background-color: #c8d5dd;
     
-    /* margin-bottom: 20px; */
+    
     padding-bottom: 10px;
     padding-top: 10px;
+    justify-content: center;
     
 }
 
 .fa { 
    
     padding: 20px;  
-
     font-size: 30px;  
    border-radius: 40%;
+   
   }  
 
 
