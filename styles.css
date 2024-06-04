@@ -74,7 +74,7 @@ h1{font-family: 'Courier New', Courier, monospace;
     border: #c8d5dd 5px solid;
     text-align: center;
     margin: 20px;
-    font-size: 24px;
+    font-size: 32px;
     
 }
 h2{
@@ -90,19 +90,21 @@ li{
     padding: 10px;
     font-size:24px;
 }
+
+
 /*about us page*/
 
 .about{
     border: #c8d5dd 5px solid;
-    display: flex;
+    display: flex;   
     margin: 20px;
     padding: 10px;
     
 }
 
 #image-50{
-    width: 50%;
-    float: left;
+  width: 50%;
+
   
 }
 
@@ -110,7 +112,9 @@ li{
     float: right;
     padding-left: 20px;
     font-size: 36px;
+    margin-left: 20px;
 }
+
 /* contact us page */
 a{
     text-decoration: none;
@@ -145,3 +149,13 @@ footer{
   
   /*media queries*/
 
+@media (max-width:800px){
+    .about{
+        flex-direction: column;
+    }
+  #image-50{
+    width: auto;
+    height: fit-content;
+  }
+ 
+}
