@@ -74,14 +74,16 @@ h1{font-family: 'Courier New', Courier, monospace;
     border: #c8d5dd 5px solid;
     text-align: center;
     margin: 20px;
-    font-size: 32px;
-    
+    font-size: 32px;        
 }
+
 h2{
+    padding: 10px;
     padding-bottom: 20px;
 }
 ul{
     list-style-type: none;
+    
 }
 
 
@@ -89,6 +91,7 @@ ul{
 li{
     padding: 10px;
     font-size:24px;
+    
 }
 
 
@@ -129,11 +132,15 @@ a{
 footer{
     display: flex;
     background-color: #c8d5dd;
-    
+    margin-top: 2px;
     
     padding-bottom: 10px;
     padding-top: 10px;
     justify-content: center;
+
+    bottom: 0;
+    width: 100%;
+
     
 }
 
