@@ -70,7 +70,7 @@ h1{font-family: 'Courier New', Courier, monospace;
 
 /*information*/
 
-.information {
+.information, .contact {
     border: #c8d5dd 5px solid;
     text-align: center;
     margin: 20px;
@@ -151,6 +151,10 @@ footer{
    border-radius: 40%;
    
   }  
+
+  .contact a:hover{
+    color: grey;
+  }
 
 
   
