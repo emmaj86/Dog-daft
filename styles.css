@@ -146,8 +146,23 @@ a{
     color: black;
 }
 
-.information a:hover{
+/* .information a:hover{
     font-size: 28px;
+} */
+
+/*services*/
+.services-information {
+    
+    text-align: center;
+    margin: 20px;
+    font-size: 32px;        
+}
+
+#prices{
+    justify-content: center;
+    width: 75vw;
+    border: #c8d5dd 5px solid;
+
 }
 
 /* footer*/
