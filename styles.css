@@ -55,11 +55,22 @@ header{
 
 h1{font-family: 'Courier New', Courier, monospace;
     font-size: 42px;
+   
 }
 
 h2{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 42px;
+    font-size: 38px;
+    text-align: center;
+    color: black;
+     background-color: #c8d5dd;
+    
+   
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
     text-align: center;
     color: black;
 }
@@ -78,9 +89,9 @@ h2{
 /*information*/
 
 .information, .contact {
-    border: #c8d5dd 5px solid;
+    /* border: #c8d5dd 5px solid; */
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
     font-size: 32px;        
 }
 
@@ -105,6 +116,10 @@ li{
 
 /*about us page*/
 
+hr{
+   border: 3px solid #c8d5dd;
+}
+
 .about{
     border: #c8d5dd 5px solid;
     display: flex;   
@@ -116,8 +131,14 @@ li{
 
 
 
-.boarding, .walks{
+/* .friends, .walks{
     background-color: #c8d5dd;
+} */
+
+.friends{
+    padding-bottom:50px;
+
+
 }
 
 /*gallery*/
@@ -127,7 +148,15 @@ li{
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    /* background-color: #c8d5dd; */
+}
+
+.image-heading{
     background-color: #c8d5dd;
+}
+
+#dog-selfie{
+    background-color: #DDD0C8;
 }
 .image-gallery img {
     width: auto;
@@ -137,7 +166,7 @@ li{
 }
 
 .image-gallery img:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
 /* contact us page */
