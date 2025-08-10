@@ -2,6 +2,7 @@ body{
     position: relative;
     background-color: #DDD0C8;
     margin: 0;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 html, body{
@@ -99,12 +100,18 @@ p{
 .ml2 {
     font-weight: 900;
     font-size: 3.5em;
-  }
-  
-  .ml2 .letter {
     display: inline-block;
     line-height: 1em;
+    white-space: pre-wrap;
+    
   }
+  
+  /* .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+    white-space: pre-wrap;
+    
+  } */
 /*information*/
 
 .information, .contact {
@@ -146,10 +153,10 @@ hr{
     
 }
 
-#dog-selfie{
+/* #dog-selfie{
     /* background-color: #c8d5dd; */
-    padding-bottom: 20px;
-}
+    /* padding-bottom: 20px;
+} */ 
 
 .information{
     max-width: 80vw;
