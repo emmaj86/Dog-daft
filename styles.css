@@ -107,16 +107,13 @@ p{
 /*information*/
 
 .information, .contact {
-    /* border: #c8d5dd 5px solid; */
+  
     text-align: center;
     margin-top: 20px;
     font-size: 32px;        
 }
 
-/* h2{
-    padding: 10px;
-    padding-bottom: 20px;
-} */
+
 ul{
     list-style-type: none;
     padding: 10px;
@@ -158,24 +155,7 @@ hr{
     margin: auto;
 }
 
-/* .boss{
-    background-color: #c8d5dd;
-}
 
-.walks, .walks h2{
-    background-color: #DDD0C8;
-}
-
-.friends{
-    background-color: #c8d5dd;
-} */
-
-
-
-
-/* .friends, .walks{
-    background-color: #c8d5dd;
-} */
 
 .friends{
     padding-bottom:50px;
@@ -203,8 +183,7 @@ hr{
 }
 .image-gallery img {
     width: auto;
-    height: 400px;
-   
+    height: 400px;  
     border-radius: 10px;
 }
 
@@ -223,9 +202,7 @@ a{
     max-height:50vh;
 }
 
-/* .information a:hover{
-    font-size: 28px;
-} */
+
 
 /*services*/
 .services-information {
@@ -251,7 +228,7 @@ footer{
     padding-bottom: 10px;
     padding-top: 10px;
     justify-content: center;
-    position: fixed;
+   
     bottom: 0;
     width: 100%;
 
@@ -291,5 +268,8 @@ font-size: 1.5rem;
   nav a {
     font-size: 1.5rem;
   }
+ section:last-child{
+    padding-bottom: 40px;
+ }
  
 }
