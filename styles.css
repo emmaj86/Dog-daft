@@ -153,10 +153,7 @@ hr{
     
 }
 
-/* #dog-selfie{
-    /* background-color: #c8d5dd; */
-    /* padding-bottom: 20px;
-} */ 
+
 
 .information{
     max-width: 80vw;
@@ -185,10 +182,10 @@ hr{
 
 
 
-#dog-selfie{
+/* #dog-selfie{
     background-color: #DDD0C8;
     max-width: 80vw;
-}
+} */
 .image-gallery img {
     width: auto;
     max-height: 400px;  
@@ -278,6 +275,10 @@ font-size: 1.5rem;
   }
  section:last-child{
     padding-bottom: 40px;
+ }
+ #dog-selfie{
+    max-width: 80vw;
+    height: auto;
  }
  
 }
