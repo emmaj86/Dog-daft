@@ -105,10 +105,10 @@ h3{
     font-size: 32px;        
 }
 
-h2{
+/* h2{
     padding: 10px;
     padding-bottom: 20px;
-}
+} */
 ul{
     list-style-type: none;
     padding: 10px;
@@ -129,6 +129,7 @@ li{
 
 hr{
    border: 3px solid #c8d5dd;
+   margin:20px;
 }
 
 .about{
@@ -138,6 +139,28 @@ hr{
     padding: 10px;
     
 }
+
+#dog-selfie{
+    /* background-color: #c8d5dd; */
+    padding-bottom: 20px;
+}
+
+.information{
+    max-width: 80vw;
+    margin: auto;
+}
+
+/* .boss{
+    background-color: #c8d5dd;
+}
+
+.walks, .walks h2{
+    background-color: #DDD0C8;
+}
+
+.friends{
+    background-color: #c8d5dd;
+} */
 
 
 
@@ -162,9 +185,10 @@ hr{
     /* background-color: #c8d5dd; */
 }
 
-.image-heading{
+/* .image-heading{
     background-color: #c8d5dd;
-}
+} */
+
 
 #dog-selfie{
     background-color: #DDD0C8;
@@ -177,7 +201,8 @@ hr{
 }
 
 .image-gallery img:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
+    border: 2px solid #c8d5dd;
 }
 
 /* contact us page */
