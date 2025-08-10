@@ -63,7 +63,7 @@ h2{
     font-size: 38px;
     text-align: center;
     color: black;
-     background-color: #c8d5dd;
+     /* background-color: #c8d5dd; */
     
    
 }
@@ -86,6 +86,16 @@ h3{
     
 }
 
+/*slogan*/
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 /*information*/
 
 .information, .contact {
@@ -112,6 +122,7 @@ li{
     font-size:24px;
     
 }
+
 
 
 /*about us page*/
