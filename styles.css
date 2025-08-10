@@ -171,24 +171,24 @@ hr{
     justify-content: space-around;
     align-items: center;
     /* background-color: #c8d5dd; */
+   
 }
 
-/* .image-heading{
-    background-color: #c8d5dd;
-} */
+
 
 
 #dog-selfie{
     background-color: #DDD0C8;
+    max-width: 80vw;
 }
 .image-gallery img {
     width: auto;
-    height: 400px;  
+    max-height: 400px;  
     border-radius: 10px;
 }
 
 .image-gallery img:hover{
-    transform: scale(1.1);
+    
     border: 2px solid #c8d5dd;
 }
 
