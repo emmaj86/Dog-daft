@@ -89,7 +89,8 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height: 70vh;max-width: 100%;
+    max-height: 70vh;
+    max-width: 100%;
     padding-top: 20px;
     
 }
