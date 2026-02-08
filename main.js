@@ -6,7 +6,7 @@ $(".carousel").carousel({
 var textWrapper = document.querySelector(".ml2");
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>"
+  "<span class='letter'>$&</span>",
 );
 
 anime
@@ -27,3 +27,18 @@ anime
     easing: "easeOutExpo",
     delay: 1000,
   });
+
+//tracking whatsapp and messenger clicks
+document.addEventListener("click", function (e) {
+  const link = e.target.closest("a[data-track]");
+  if (!link) return;
+
+  const method = link.getAttribute("data-track");
+
+  if (typeof gtag === "function") {
+    gtag("event", "contact_click", {
+      contact_method: method,
+      page_location: window.location.href,
+    });
+  }
+});
