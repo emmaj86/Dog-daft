@@ -34,11 +34,10 @@ document.addEventListener("click", function (e) {
   if (!link) return;
 
   const method = link.getAttribute("data-track");
+  console.log("SENDING GA EVENT:", method);
 
-  if (typeof gtag === "function") {
-    gtag("event", "contact_click", {
-      contact_method: method,
-      page_location: window.location.href,
-    });
-  }
+  gtag("event", "contact_click", {
+    contact_method: method,
+    debug_mode: true,
+  });
 });
