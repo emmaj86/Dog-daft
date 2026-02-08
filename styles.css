@@ -97,39 +97,6 @@ p {
   padding-top: 20px;
 }
 
-/*facebook messenger button*/
-.float-btn {
-  position: fixed;
-  right: 20px;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  z-index: 999;
-  text-decoration: none;
-}
-
-.float-whatsapp {
-  bottom: 20px;
-  background: #25d366;
-}
-.float-whatsapp:hover {
-  background: #1ebe5d;
-}
-
-.float-messenger {
-  bottom: 90px; /* sits above WhatsApp */
-  background: #0084ff;
-}
-.float-messenger:hover {
-  background: #006fd6;
-}
-
 /*slogan*/
 .ml2 {
   font-weight: 900;
@@ -294,4 +261,37 @@ footer {
     max-width: 80vw;
     height: auto;
   }
+}
+
+/* floating chat buttons */
+.chat-float {
+  position: fixed;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+  z-index: 99999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.chat-float.whatsapp {
+  bottom: 20px;
+  background: #25d366;
+}
+.chat-float.whatsapp:hover {
+  background: #1ebe5d;
+}
+
+.chat-float.messenger {
+  bottom: 90px;
+  background: #0084ff;
+}
+.chat-float.messenger:hover {
+  background: #006fd6;
 }
