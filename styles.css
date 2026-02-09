@@ -193,7 +193,18 @@ a {
 }
 
 .contact img {
-  max-height: 50vh;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact h5 {
+  text-decoration: underline;
+  text-decoration-color: #c8d5dd;
+}
+
+.contact h5:hover {
+  color: grey;
 }
 
 /*services*/
