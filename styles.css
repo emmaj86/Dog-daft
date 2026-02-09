@@ -79,6 +79,14 @@ p {
   font-size: 24px;
 }
 
+.btn.btn-primary {
+  font-weight: 600;
+}
+
+.btn.btn-primary:hover {
+  color: white;
+}
+
 .grid-3 {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
@@ -174,9 +182,9 @@ hr {
   border-radius: 10px;
 }
 
-.image-gallery img:hover {
+/* .image-gallery img:hover {
   border: 2px solid #c8d5dd;
-}
+} */
 
 /* contact us page */
 a {
@@ -203,13 +211,14 @@ a {
 
 /* footer*/
 .site-footer a {
-  color: #ffffff;
+  /* color: #ffffff; */
   text-decoration: none;
   margin: 0 12px;
 }
 
 .site-footer a:hover {
   opacity: 0.85;
+  color: grey;
 }
 
 footer {
